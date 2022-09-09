@@ -1,0 +1,27 @@
+{
+  "name": "stats-data-analyze-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alamgir55/stats-data-analyze-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alamgir55/stats-data-analyze-ts/issues"
+  },
+  "homepage": "https://github.com/Alamgir55/stats-data-analyze-ts#readme",
+  "dependencies": {
+    "@types/node": "^18.7.16",
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.19"
+  }
+}
